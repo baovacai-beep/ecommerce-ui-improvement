@@ -1,0 +1,171 @@
+HTML
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cải tiến Giao diện Thẻ Sản Phẩm TMĐT - UEH</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Phần tiêu đề trang (Header) -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">UEH<span>Mart</span></div>
+            <form class="search-bar" action="#" method="get">
+                <input type="text" placeholder="Tìm kiếm sách, thiết bị công nghệ, gia dụng..." aria-label="Tìm kiếm sản phẩm">
+                <button type="submit">Tìm kiếm</button>
+            </form>
+            <div class="cart-summary">
+                <span class="cart-label">Giỏ hàng</span>
+                <span class="cart-badge">2</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Khu vực nội dung chính (Main) -->
+    <main class="container">
+        <!-- Tiêu đề khu vực cải tiến & Bộ lọc nhanh -->
+        <section class="catalog-section">
+            <div class="section-header">
+                <div>
+                    <h1 class="section-title">Gợi Ý Hôm Nay – Ưu Đãi Chính Hãng</h1>
+                    <p class="section-subtitle">Bố cục thẻ sản phẩm cải tiến giúp so sánh giá gốc, giá giảm và thao tác mua nhanh chóng</p>
+                </div>
+                <div class="sort-bar">
+                    <span>Sắp xếp:</span>
+                    <button class="sort-btn active" type="button">Phổ biến</button>
+                    <button class="sort-btn" type="button">Giá thấp đến cao</button>
+                    <button class="sort-btn" type="button">Giảm giá nhiều</button>
+                </div>
+            </div>
+
+            <!-- Lưới danh sách sản phẩm (Tối thiểu 4 sản phẩm mẫu) -->
+            <div class="product-grid">
+
+                <!-- Sản phẩm 1 -->
+                <article class="product-card">
+                    <div class="product-media">
+                        <span class="badge-discount">-28%</span>
+                        <span class="badge-authentic">Chính hãng</span>
+                        <img src="https://placehold.co/400x400/eef2ff/1e40af?text=Tai+Nghe+Bluetooth" alt="Tai nghe Bluetooth Chống Ồn Chủ Động ANC">
+                    </div>
+                    <div class="product-body">
+                        <span class="product-category">Thiết bị âm thanh</span>
+                        <h2 class="product-title">Tai Nghe Bluetooth Chống Ồn Chủ Động ANC Pin 40 Giờ Bảo Hành 12 Tháng</h2>
+                        <div class="product-meta">
+                            <span class="rating">★ 4.9 (128)</span>
+                            <span class="sold">Đã bán 540</span>
+                        </div>
+                        <div class="product-pricing">
+                            <div class="price-row">
+                                <span class="price-current">1.290.000₫</span>
+                                <del class="price-original">1.790.000₫</del>
+                            </div>
+                            <span class="price-saving">Tiết kiệm: 500.000₫</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-cart" type="button">Thêm vào giỏ</button>
+                            <button class="btn-buy" type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Sản phẩm 2 -->
+                <article class="product-card">
+                    <div class="product-media">
+                        <span class="badge-discount">-35%</span>
+                        <span class="badge-authentic">Chính hãng</span>
+                        <img src="https://placehold.co/400x400/fef2f2/b91c1c?text=Ban+Phim+Co" alt="Bàn Phím Cơ Không Dây 3 Mode RGB">
+                    </div>
+                    <div class="product-body">
+                        <span class="product-category">Phụ kiện máy tính</span>
+                        <h2 class="product-title">Bàn Phím Cơ Không Dây 3 Mode Kết Nối Hotswap Đèn LED RGB Cho Sinh Viên & Văn Phòng</h2>
+                        <div class="product-meta">
+                            <span class="rating">★ 4.8 (95)</span>
+                            <span class="sold">Đã bán 310</span>
+                        </div>
+                        <div class="product-pricing">
+                            <div class="price-row">
+                                <span class="price-current">845.000₫</span>
+                                <del class="price-original">1.300.000₫</del>
+                            </div>
+                            <span class="price-saving">Tiết kiệm: 455.000₫</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-cart" type="button">Thêm vào giỏ</button>
+                            <button class="btn-buy" type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Sản phẩm 3 -->
+                <article class="product-card">
+                    <div class="product-media">
+                        <span class="badge-discount">-20%</span>
+                        <span class="badge-authentic">TikiTrading</span>
+                        <img src="https://placehold.co/400x400/ecfdf5/047857?text=Sach+Phat+Trien+Web" alt="Giáo Trình Phát Triển Ứng Dụng Thương Mại Điện Tử">
+                    </div>
+                    <div class="product-body">
+                        <span class="product-category">Sách công nghệ</span>
+                        <h2 class="product-title">Sách: Nền Tảng Phát Triển Ứng Dụng Web & Thương Mại Điện Tử Hiện Đại</h2>
+                        <div class="product-meta">
+                            <span class="rating">★ 5.0 (210)</span>
+                            <span class="sold">Đã bán 1.2k</span>
+                        </div>
+                        <div class="product-pricing">
+                            <div class="price-row">
+                                <span class="price-current">196.000₫</span>
+                                <del class="price-original">245.000₫</del>
+                            </div>
+                            <span class="price-saving">Tiết kiệm: 49.000₫</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-cart" type="button">Thêm vào giỏ</button>
+                            <button class="btn-buy" type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Sản phẩm 4 -->
+                <article class="product-card">
+                    <div class="product-media">
+                        <span class="badge-discount">-40%</span>
+                        <span class="badge-authentic">Chính hãng</span>
+                        <img src="https://placehold.co/400x400/fffbeb/b45309?text=Chuot+Khong+Day" alt="Chuột Không Dây Công Thái Học Silent">
+                    </div>
+                    <div class="product-body">
+                        <span class="product-category">Phụ kiện laptop</span>
+                        <h2 class="product-title">Chuột Không Dây Công Thái Học Click Êm Silent Bảo Vệ Cổ Tay Pin Sạc Type-C</h2>
+                        <div class="product-meta">
+                            <span class="rating">★ 4.7 (64)</span>
+                            <span class="sold">Đã bán 420</span>
+                        </div>
+                        <div class="product-pricing">
+                            <div class="price-row">
+                                <span class="price-current">299.000₫</span>
+                                <del class="price-original">499.000₫</del>
+                            </div>
+                            <span class="price-saving">Tiết kiệm: 200.000₫</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-cart" type="button">Thêm vào giỏ</button>
+                            <button class="btn-buy" type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Chân trang (Footer) -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Bài tập cá nhân Chương 1 – Học phần Phát triển ứng dụng TMĐT (UEH).</p>
+        </div>
+    </footer>
+
+</body>
+</html>
